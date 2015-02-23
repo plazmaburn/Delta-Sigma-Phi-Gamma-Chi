@@ -1,0 +1,1197 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 0.9em;
+    line-height: 1.7;
+   /* -webkit-font-smoothing: antialiased;*/
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:900,400|Open+Sans:400,700,800);*/
+
+html {
+    background: #eee;
+}
+
+body {
+    background: #eee url("../images/background.png");
+    color: #373737;
+}
+
+body,
+input,
+textarea,
+select {
+    font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+}
+
+a:link,
+a:visited {
+    color: #0c5f31;
+    text-decoration: underline;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+div#container {
+    /* fix for mysterious overflow disappearing background issue */
+    float: left;
+    display: inline-block;
+    min-width: 100%;
+    background: #eee url("../images/background.png");
+}
+
+/* Page wrapper */
+
+.wrapper {
+    width: 960px;
+    margin: auto auto;
+}
+
+
+/* Page header */
+
+header {
+    background: #fff;
+}
+
+
+/* Logo */
+
+#logoLink a {
+    text-indent: -9999em;
+    display: block;
+    height: 130px;
+    width: 700px;
+    background: url("./images/logo_crest.png") left center no-repeat;
+    float: left;
+}
+
+
+/* Site search */
+
+#siteSearch {
+    float: right;
+    margin: 82px 0 0 0;
+}
+
+
+#siteSearch label.searchContainer {
+    display: block;
+    border: 1px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 1px 1px 1px 5px;
+    cursor: text;
+}
+
+#siteSearch input.inputText {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    font-size: 0.9em;
+    outline: 0;
+}
+
+#siteSearch input.inputSubmit {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: url("../images/search.png") no-repeat 4px 4px;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+
+#siteSearch input.inputSubmit:hover {
+    background-position: 4px -20px;
+}
+
+
+/* Main navigation menu */
+
+nav#mainMenu {
+    clear: both;
+    background: #0c5f31; /* Old browsers */
+    background: -moz-linear-gradient(top, #0c5f31 0%, #004f20 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0c5f31), color-stop(100%,#004f20)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #0c5f31 0%,#004f20 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #0c5f31 0%,#004f20 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #0c5f31 0%,#004f20 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #0c5f31 0%,#004f20 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c5f31', endColorstr='#004f20',GradientType=0 ); /* IE6-9 */
+    padding: 0;
+    border-top: 3px solid #064320;
+    border-bottom: 3px solid #064320;
+}
+
+nav#mainMenu ul {
+    margin: 0 ;
+    padding: 0;
+    text-align: center;
+}
+
+nav#mainMenu ul li {
+    display: inline-block;
+    margin: 0 6px 0;
+}
+
+nav#mainMenu ul li a {
+    display: inline-block;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+nav#mainMenu ul li a:hover {
+    background-color: #074d27;
+    background-color: rgba(0,0,0,0.2);
+}
+
+nav#mainMenu ul li.selected a {
+    font-weight: bold;
+    background: #3e2074; /* Old browsers */
+    background: -moz-linear-gradient(top, #3e2074 0%, #321860 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e2074), color-stop(100%,#321860)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3e2074 0%,#321860 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3e2074 0%,#321860 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3e2074 0%,#321860 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #3e2074 0%,#321860 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2074', endColorstr='#321860',GradientType=0 ); /* IE6-9 */
+}
+
+
+/* Main page wrapper */
+
+#main .wrapper {
+    background: #fff;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    padding: 50px;
+    width: 860px;
+}
+
+
+/* Full width block on home page */
+
+#fullWidth #highlight {
+    margin: -50px -50px 30px;
+    background: #333;
+    border-bottom: 3px solid #0c5f31;
+    overflow: hidden;
+    height: 220px;
+}
+
+#slideshow {
+    position:relative;
+    height:220px;
+    /*z-index:-1;*/
+    margin-bottom: -220px;
+}
+ 
+#slideshow img {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    margin-bottom: -240px;
+}
+ 
+#slideshow img.active {
+    z-index:10;
+    opacity:1.0;
+
+}
+ 
+#slideshow img.last-active {
+    z-index:9;
+}
+ 
+#slideshow img {
+    /* Set rules to fill background */
+    /*min-height: 100%;*/
+    width: 960px;
+ 
+    /* Set up proportionate scaling */
+    /*width: 100%;*/
+    height: 220px;
+ 
+    /* Set up positioning */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fullWidth #highlight .contain {
+    padding: 116px 50px 10px;
+    background: url("../images/rotate_gradient.png") bottom left repeat-x;
+    position: relative;
+    z-index: 10;
+}
+
+#fullWidth #highlight h1 {
+    text-transform: uppercase;
+    font-family: 'Alegreya SC', Georgia, serif;
+    font-size: 4em;
+    color: #fff;
+    margin: 0;
+}
+
+#fullWidth #highlight .lastYear {
+    float: left;
+    margin-top: -10px;
+}
+
+#fullWidth #highlight .lastYear span {
+    display: block;
+    margin-top: 10px;
+    font-weight: normal;
+    color: #ccc;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px #000;
+}
+
+#fullWidth #highlight .lastYear a {
+    font-size: 2.2em;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    margin: -10px;
+    text-shadow: 0 0 5px #000;
+}
+
+#fullWidth #highlight .joinUs {
+    float: right;
+    width: 230px;
+    text-align: center;
+    padding: 8px 5px;
+}
+
+#fullWidth #highlight .joinUs a {
+    display: block;
+    width: 225px;
+    height: 55px;
+    background: #c00;
+    color: #fff;
+    font-size: 2.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#fullWidth #highlight .joinUs a:hover {
+    background-color: #e00;
+}
+
+#fullWidth #highlight .joinUs span {
+    text-transform: uppercase;
+    color: #bbb;
+}
+
+#fullWidth p {
+    font-size: 1.6em;
+    padding: 0 20px 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0 0 40px 0;
+    letter-spacing: -1px;
+}
+
+
+/* We are Delta Sig on home page */
+
+h1#weAreDeltaSig {
+    text-transform: uppercase;
+    font-family: 'Alegreya SC', Georgia, serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+h1#weAreDeltaSig span.we {
+    font-style: italic;
+}
+
+h1#weAreDeltaSig span.are {
+    color: #0c5f31;
+}
+
+h1#weAreDeltaSig span.deltaSig {
+}
+
+
+/* Better Men. Better Lives. block on home page */
+
+p#betterMenBetterLives {
+    text-transform: uppercase;
+    font-family: 'Alegreya SC', Georgia, serif;
+    text-align: center;
+    background: #eee;
+    padding: 12px;
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin: 30px 0;
+}
+
+
+/* Coat of Arms on Home page */
+
+div#coatOfArms {
+    background: url("../images/coat_of_arms.gif") center center no-repeat;
+    height: 150px;
+}
+
+div#coatOfArms p.alt {
+    visibility: hidden;
+}
+
+
+/* Two column layout: home page; */
+
+#columns.home #primary {
+    float: left;
+    width: 460px;
+}
+
+#columns.home #sidebar {
+    float: left;
+    width: 350px;
+    margin-left: 50px;
+}
+
+
+/* Two column layout: equal width */
+
+#columns #leftColumn,
+#columns #rightColumn {
+    float: left;
+    width: 405px;
+}
+
+#columns #rightColumn {
+    margin-left: 50px;
+}
+
+
+/* Page header (page title on default and two column layouts) */
+
+article > .wrapper > h1 {
+    font-family: 'Alegreya SC', Georgia, serif;
+    font-size: 4em;
+    color: #333;
+    border-bottom: 3px solid #0c5f31;
+    padding: 10px 50px;
+    margin: -50px -50px 30px;
+}
+
+
+/* Page subnavigation */
+
+nav.subNavigation {
+    float: right;
+    margin: -125px 0 0 0;
+}
+
+nav.subNavigation ul {
+    font-size: 1.4em;
+}
+
+nav.subNavigation ul li {
+    display: inline-block;
+    padding: 0 0 0 25px;
+    margin: 0 0 0 25px;
+    border-left: 1px solid #ddd;
+}
+
+nav.subNavigation ul li.selected {
+    display: none;
+}
+
+nav.subNavigation ul li:first-child {
+    border: 0;
+}
+
+
+/* Page feature (description at top of page) */
+
+#feature {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+#feature p {
+    font-size: 1.6em;
+    margin: 0;
+}
+
+
+/* General block */
+
+section.general {
+    margin-bottom: 20px;
+}
+
+section.general h1 {
+    border-bottom: 1px solid #ddd;
+    font-size: 1.3em;
+    margin: 0 0 10px 0;
+    padding: 4px 5px;
+    letter-spacing: -1px;
+}
+
+section.general h1 a {
+    color: #373737;
+}
+
+section.general p {
+    margin: 0.5em 0 1em;
+    padding: 0 5px;
+}
+
+section.general p.alignCenter {
+    text-align: center;
+}
+
+section.general h1.block {
+    background: #eee;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    color: #555;
+    border: 0;
+    letter-spacing: 0;
+    font-size: 1.4em;
+}
+
+section.general h1.block.green {
+    background: #0c5f31;
+    color: #fff;
+}
+
+section.general p.block {
+    background: #eee;
+    padding: 12px 20px;
+    font-size: 1.8em;
+    color: #555;
+    margin: 0 0 15px 0;
+}
+
+section.general p.block.green {
+    background: #0c5f31;
+    color: #fff;
+}
+
+section.general p.block.green a {
+    color: #fff;
+}
+
+section.general p.block.button {
+    font-size: 1em;
+    padding: 0;
+}
+
+section.general p.block.button a {
+    display: block;
+    padding: 12px 20px;
+}
+
+/* Photo Gallery */
+
+.photoGallery {
+    margin: -6px;
+}
+
+.photoGallery:before,
+.photoGallery:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.photoGallery:after {
+    clear: both;
+}
+
+.photoGallery {
+    *zoom: 1;
+}
+
+.photoGallery span.text {
+    display: none;
+}
+
+.photoGallery ul.album {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.photoGallery ul.album li {
+    list-style: none;
+    margin: 6px;
+    padding: 0;
+    float: left;
+}
+
+.photoGallery ul.album li a {
+    display: block;
+    background: #eee;
+    padding: 8px;
+}
+
+.photoGallery ul.album li a img {
+    width: 180px;
+    height: 134px;
+}
+
+#fullWidthBottom .photoGallery ul li {
+    margin: 11px;
+}
+
+section.general p.more {
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+
+
+/* Brothers (Meet the Men of Alpha Iota) */
+
+.showMe {
+    text-align: center;
+    margin: -10px 0 22px 0;
+    display: none;
+}
+
+.showMe a {
+    margin: 0 5px;
+}
+
+.showMe a.selected {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+p.major,
+p.hometown {
+    display: none;
+}
+
+#men {
+    margin: -15px;
+}
+
+#men:before,
+#men:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+#men:after {
+    clear: both;
+}
+
+#men {
+    *zoom: 1;
+}
+
+#men section {
+    float: left;
+    width: 174px;
+    height: 310px;
+    margin: 14px 14px 4px 14px;
+    padding: 10px 10px 0 10px;
+    text-align: center;
+}
+
+#men section div {
+margin: -4px -4px 5px;
+background: #eee;
+padding: 8px;
+}
+
+#men section img {
+    width: 165px;
+    height: 200px;
+}
+
+#men section h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+#men section h2 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#men section p.year,
+#men section p.major,
+#men section p.hometown {
+    font-style: normal;
+    color: #777;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+/* Leadership Page */
+
+#leadership section {
+    clear: both;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+#leadership section .leader {
+    padding: 0 0 5px 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+#leadership section h1,
+#leadership section h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 340px;
+    display: block;
+    float: left;
+    border: 0;
+    margin: 9px 10px 0 0;
+    padding: 0;
+    font-size: 1.1em;
+    color: #444;
+}
+
+#leadership section p {
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+
+#leadership section span.name {
+    font-size: 1.5em;
+    float: left;
+    display: block;
+    width: 280px;
+}
+
+#leadership section span.email {
+    color: #999;
+    float: left;
+    display: block;
+    margin: 9px 0 0 10px;
+    text-align: right;
+    width: 200px;
+}
+
+#leadership section .chair {
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+}
+
+#leadership section .chair.continued {
+    padding-left: 350px;
+}
+
+#leadership section .chair h2 {
+    margin-top: 3px;
+    text-transform: none;
+    color: #666;
+    font-weight: normal;
+}
+
+#leadership section .chair span.name {
+    font-size: 1.2em;
+}
+
+#leadership section .chair span.email {
+    margin-top: 5px;
+}
+
+
+/* Better Men. Better Lives. Page */
+
+#betterMenBetterLivesBlock h1 {
+    font-family: 'Alegreya SC', Georgia, serif;
+    font-size: 4em;
+    color: #0c5f31;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    margin: -20px 0 0 0;
+}
+
+#betterMenBetterLivesBlock h2 {
+    text-transform: uppercase;
+}
+
+
+/* Recruitment symbols */
+
+.symbol {
+    background: #eee;
+    padding: 10px;
+    color: #666;
+    font-style: italic;
+    margin: 50px 0 80px 0;
+}
+
+.symbol img {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: -37px 15px 0 0;
+}
+
+.symbol.coatOfArms img {
+    margin-top: -42px;
+}
+
+
+/* Form styling */
+
+article form {
+    width: 522px;
+    margin: auto auto;
+}
+
+article form label {
+    font-weight: bold;
+    margin: 10px 0 4px 0;
+    display: block;
+}
+
+article form label abbr[title] {
+    color: #bb0000;
+    border: 0;
+    margin: 0 0 0 3px;
+}
+
+article form input[type="text"],
+article form input[type="email"],
+article form textarea {
+    padding: 5px;
+    border: 1px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 500px;
+    font-size: 1.1em;
+    outline: 0;
+}
+
+article form p.submit {
+    text-align: center;
+}
+
+article form input[type="submit"] {
+    font-size: 1.2em;
+    padding: 5px 10px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+article form input[type="submit"]:hover {
+    border-color: #bbb;
+}
+
+div.message.success {
+    background: #0c5f31;
+    padding: 12px;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+div.message.error {
+    background: #bb0000;
+    padding: 12px;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+div.message a {
+    color: #fff;
+}
+
+/* Search results */
+
+#searchResults h1 {
+    margin: 0 0 4px 0;
+}
+
+#searchResults section {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    margin: 0;
+}
+
+#searchResults section h1 {
+    border: 0;
+    margin: 0;
+    padding: 6px 0 4px 0;
+}
+
+#searchResults section h1 a {
+    color: #0c5f31;
+}
+
+#searchResults section p {
+    padding: 0;
+    margin: 0 0 12px 0;
+}
+
+
+/* Page footer */
+
+footer {
+    background: #eee;
+    border-top: 2px solid #ccc;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer #mailing-address {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px dotted #ccc;
+    color: #999;
+}
+
+footer #mailing-address span.street-address > span,
+footer #mailing-address span.locality,
+footer #mailing-address span.comma,
+footer #mailing-address abbr.region,
+footer #mailing-address span.postal-code {
+    color: #555;
+    font-style: normal;
+}
+
+footer #mailing-address address {
+    margin: 0;
+}
+
+footer #mailing-address span.street-address span {
+    margin: 0 7px;
+}
+
+footer #mailing-address span.locality {
+    margin: 0 0 0 7px;
+}
+
+footer #mailing-address abbr {
+    border: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
