@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<item value="recVid" key="selection"/>
+		<list key="findhistory">
+			<item value="recVid"/>
+			<item value="$(document).ready(function() {&#x0A;&#x09;&#x09;&#x09;$(&quot;.recVid&quot;).fancybox({&#x0A;&#x09;&#x09;&#x09;&#x09;maxWidth&#x09;: 800,&#x0A;&#x09;&#x09;&#x09;&#x09;maxHeight&#x09;: 600,&#x0A;&#x09;&#x09;&#x09;&#x09;fitToView&#x09;: false,&#x0A;&#x09;&#x09;&#x09;&#x09;width&#x09;&#x09;: &apos;70%&apos;,&#x0A;&#x09;&#x09;&#x09;&#x09;height&#x09;&#x09;: &apos;70%&apos;,&#x0A;&#x09;&#x09;&#x09;&#x09;autoSize&#x09;: false,&#x0A;&#x09;&#x09;&#x09;&#x09;closeClick&#x09;: false,&#x0A;&#x09;&#x09;&#x09;&#x09;openEffect&#x09;: &apos;none&apos;,&#x0A;&#x09;&#x09;&#x09;&#x09;closeEffect&#x09;: &apos;none&apos;&#x0A;&#x09;&#x09;&#x09;});&#x0A;&#x09;&#x09;});"/>
+			<item value="fancy"/>
+			<item value="?v=2.1.5"/>
+			<item value="fancybox"/>
+			<item value="All In"/>
+			<item value="alll in "/>
+			<item value="iframe"/>
+		</list>
+	</section>
+</section>

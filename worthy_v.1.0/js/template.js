@@ -10,8 +10,18 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/banner.jpg');
-		
+		$(".banner-image").backstretch([
+      "./images/banner/ASA_date_night.jpg"
+    , "./images/banner/Douse_a_Deltasig.jpg"
+    , "./images/banner/DSP_sand_castle.jpg"
+    , "./images/banner/DSP_Spring_14_Formal.jpg"
+    , "./images/banner/DSP Crest.jpg"
+    , "./images/banner/House_sign.jpg"
+    , "./images/banner/RLA_2013.jpg"
+  ], {duration: 3000, fade: 750});
+  
+  //donate page BG controller
+		$("#donateContent1").backstretch("./images/academic_dinner.jpg");
 		// Fixed header
 		//-----------------------------------------------
 		$(window).scroll(function() {

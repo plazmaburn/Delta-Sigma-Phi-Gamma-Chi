@@ -7,3 +7,28 @@ Created:November 2014
 License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
 File Description: Place here your custom CSS styles
 */
+
+
+h1#weAreDeltaSig {
+    text-transform: uppercase;
+    font-family: 'Alegreya SC', Georgia, serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+h1#weAreDeltaSig span.we {
+    font-style: italic;
+}
+
+h1#weAreDeltaSig span.are {
+	
+    color: black !important;
+}
+.recVidPlay
+{
+	position: absolute;
+	bottom: 70px;
+	right: 110px;
+	color: green;
+	opacity: .7;
+}

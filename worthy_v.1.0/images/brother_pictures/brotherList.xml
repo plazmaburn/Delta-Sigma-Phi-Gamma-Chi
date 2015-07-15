@@ -1,0 +1,625 @@
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CATALOG>
+	<DSPB>  
+		<FNAME>Chris</FNAME>
+		<LNAME>Andris</LNAME>
+		<POS>President</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Finance</MAJOR>                            
+		<HOME>Downingtown, Pennsylvania</HOME>                           
+	</DSPB>
+	<DSPB>
+		<FNAME>Arman</FNAME>
+		<LNAME>Ayrapetyan</LNAME>
+		<YEAR>2015</YEAR>      
+		<MAJOR>Computer Science</MAJOR>
+		<HOME>Drexel Hill, Pennsylvania</HOME> 
+	</DSPB>
+	<DSPB>
+		<FNAME>Sterling</FNAME>
+		<LNAME>Becker</LNAME>
+		<YEAR>2015</YEAR>   
+		<MAJOR>Business</MAJOR>     
+		<HOME>Hersey, PA</HOME>
+	</DSPB>
+	
+	<DSPB>
+		<FNAME>John</FNAME>
+		<LNAME>Bartol</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>
+	
+	<DSPB>
+		<FNAME>Parker</FNAME>
+		<LNAME>Bell</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Westminster, Maryland</HOME>
+	</DSPB>
+	
+	<DSPB>
+		<FNAME>Jordan</FNAME>
+		<LNAME>Bismuth</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Pre-med</MAJOR>
+		<HOME>Paris, France</HOME>
+	</DSPB>
+	
+	          
+	<DSPB>
+		<FNAME>James</FNAME>
+		<LNAME>Capone</LNAME>
+		<POS>Recruitment Chair</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Culinary Arts</MAJOR>
+		<HOME>Cherry Hill, New Jersey</HOME>
+	</DSPB> 
+	   
+	   
+	<DSPB>
+		<FNAME>Eric</FNAME>
+		<LNAME>Brockel</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>    
+	          
+	<DSPB>
+		<FNAME>Sam</FNAME>
+		<LNAME>Carmel</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>ELECTRICAL ENGINEERING</MAJOR>
+		<HOME>Los Altos, California</HOME>
+	</DSPB>                 
+	                            
+	<DSPB>
+		<FNAME>Michael</FNAME>
+		<LNAME>Cavalieri</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Null</HOME>
+	</DSPB>                              
+	                            
+	<DSPB>
+		<FNAME>Mario</FNAME>
+		<LNAME>Cefalo</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Mechanical Engineering</MAJOR>
+		<HOME>Maspeth, New York</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Mitchell</FNAME>
+		<LNAME>Clarke</LNAME>
+		<POS>Brotherhood Chair</POS>
+		<YEAR>2018</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Shoreham, Vermont</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Thomas</FNAME>
+		<LNAME>Clark</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Chris</FNAME>
+		<LNAME>Cottitta</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Information Systems</MAJOR>
+		<HOME>Port Washington, New York</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Andrew</FNAME>
+		<LNAME>Cupo</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Finance</MAJOR>
+		<HOME>Parsippany, New Jersey</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Zach</FNAME>
+		<LNAME>Dennis</LNAME>
+		<POS>House Manager</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Mount Vernon, Ohio</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Kevin</FNAME>
+		<LNAME>Doi</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Matthew</FNAME>
+		<LNAME>Dugan</LNAME>
+		<POS>Treasurer</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Staten Island, New York</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>George</FNAME>
+		<LNAME>Englesson</LNAME>
+		<POS>Standards Board</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Entrepreneurship</MAJOR>
+		<HOME>Center Valley, Pennsylvania</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Kyle</FNAME>
+		<LNAME>Evans</LNAME>
+		<POS>Greek Week</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Business Administration</MAJOR>
+		<HOME>Haverford, Pennsylvania</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Kyle</FNAME>
+		<LNAME>Fader</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2018</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Richard</FNAME>
+		<LNAME>Gaibler</LNAME>
+		<POS>Athletics Chair</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Lansdale, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>De Alo</FNAME>
+		<LNAME>Grice</LNAME>
+		<POS>Greek Week Chair</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>MIS</MAJOR>
+		<HOME>Monroeville, Pennsylvania</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Jeremy Guth</FNAME>
+		<LNAME>2019</LNAME>
+		<POS>NULL</POS>
+		<YEAR>NULL</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Andres</FNAME>
+		<LNAME>Gutierrez</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Hamilton</FNAME>
+		<LNAME>Hatton</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2018</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	
+	<DSPB>
+		<FNAME>Peter</FNAME>
+		<LNAME>Hayashi</LNAME>
+		<POS>Philanthropy</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>North Wales, Pennsylvania</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Grant</FNAME>
+		<LNAME>Houpt</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Finance</MAJOR>
+		<HOME>Chambersburg, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Cameron</FNAME>
+		<LNAME>Jeffers</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Exton, Pennsylvania</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Nick</FNAME>
+		<LNAME>Kapsimalis</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>History</MAJOR>
+		<HOME>Columbus, New Jersey</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Chris</FNAME>
+		<LNAME>Kasper</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	
+	<DSPB>
+		<FNAME>Aboud</FNAME>
+		<LNAME>Karzoun</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Philadelphia, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Buraq</FNAME>
+		<LNAME>Karzoun</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Philadelphia, Pennsylvania</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Todd</FNAME>
+		<LNAME>Keiser</LNAME>
+		<POS>Vice President of Membership Development</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Watsontown, Pennsylvania</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Beartin</FNAME>
+		<LNAME>Kocibelli</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Finance and Economics</MAJOR>
+		<HOME>Bayern, Germany</HOME>
+	</DSPB>  
+	                             
+	                            
+	<DSPB>
+		<FNAME>Jonathon</FNAME>
+		<LNAME>Laurizio</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Economics</MAJOR>
+		<HOME>South Brunswick Township, New Jersey</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Thomas</FNAME>
+		<LNAME>Lightfoot-Vidal</LNAME>
+		<POS>Vice President</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Biomedical Engineering</MAJOR>
+		<HOME>Carbondale, Illinois</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Devin</FNAME>
+		<LNAME>Lewis</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Kevin</FNAME>
+		<LNAME>Likhtshteyn</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2018</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	
+	<DSPB>
+		<FNAME>Kevin</FNAME>
+		<LNAME>Lubinski</LNAME>
+		<POS>Sergeant at Arms</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Mechanical Engineering</MAJOR>
+		<HOME>Medford Lakes, New Jersey</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Roscel</FNAME>
+		<LNAME>Manalo</LNAME>
+		<POS>Community Service Chair</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Mechanical Engineering</MAJOR>
+		<HOME>Succasunna, New Jersey</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Kyle</FNAME>
+		<LNAME>McNulty</LNAME>
+		<POS>Secretary</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Nursing</MAJOR>
+		<HOME>Stillwater, New York</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Haig</FNAME>
+		<LNAME>Minasian</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2018</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Yorba Linda, California</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Jake</FNAME>
+		<LNAME>Murphy</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Norfolk, Massachusetts</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Max</FNAME>
+		<LNAME>Niehaus</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Industrial Design</MAJOR>
+		<HOME>San Francisco, California</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Ty</FNAME>
+		<LNAME>Ogunade</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Health Service Administration</MAJOR>
+		<HOME>London, United Kingdom</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Frankie</FNAME>
+		<LNAME>Orrego</LNAME>
+		<POS>Vice President of Administration</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Information Technology</MAJOR>
+		<HOME>Quakertown, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>John</FNAME>
+		<LNAME>Pieper</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Entrepreneurship</MAJOR>
+		<HOME>Cincinnati, Ohio</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Reed</FNAME>
+		<LNAME>Power</LNAME>
+		<POS>Public Relations/ Historian Chair</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Miller Place, New York</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Avery</FNAME>
+		<LNAME>Price</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Reading, Pennsylvania</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Josh</FNAME>
+		<LNAME>Propper</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Bailey</FNAME>
+		<LNAME>Rau</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Adam</FNAME>
+		<LNAME>Reines</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Aaron</FNAME>
+		<LNAME>Ridgeway</LNAME>
+		<POS>Technology Chair</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>BSIT / MSIS</MAJOR>
+		<HOME>South Windsor, Connecticut</HOME>
+	</DSPB>  
+	                             
+	                            
+	                            
+	                            
+	                            
+	<DSPB>
+		<FNAME>Kevin</FNAME>
+		<LNAME>Rodden</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Mechanical Engineering</MAJOR>
+		<HOME>Greenlawn, New York</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Kenny</FNAME>
+		<LNAME>Rodriguez</LNAME>
+		<POS>2016</POS>
+		<YEAR>NULL</YEAR>
+		<MAJOR>Biomedical Engineering</MAJOR>
+		<HOME>Brooklyn, New York</HOME>
+	</DSPB>  
+	                             
+	                            
+	                            
+	                            
+	<DSPB>
+		<FNAME>Kerry</FNAME>
+		<LNAME>Rugenstein</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Political Science</MAJOR>
+		<HOME>Tinton Falls, New Jersey</HOME>
+	</DSPB>  
+	                             
+	                            
+	                            
+	                            
+	<DSPB>
+		<FNAME>Todd</FNAME>
+		<LNAME>Scalgione</LNAME>
+		<POS>Social Chair</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Maplewood, New Jersey</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Austin</FNAME>
+		<LNAME>Schneck</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2019</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Hans</FNAME>
+		<LNAME>VanTrieste</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Business/Accounting</MAJOR>
+		<HOME>Chadds Ford, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Thomas</FNAME>
+		<LNAME>Vasile</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Computer Engineering</MAJOR>
+		<HOME>Philadelphia, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Nathaniel</FNAME>
+		<LNAME>Wallwork</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>NULL</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Nick</FNAME>
+		<LNAME>Wancio</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Biomedical Engineering</MAJOR>
+		<HOME>Gilbertsville, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Noah</FNAME>
+		<LNAME>Williams</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Culinary Arts</MAJOR>
+		<HOME>Oakland, California</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Dan</FNAME>
+		<LNAME>Zeplowitz</LNAME>
+		<POS>Academics Chair</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>NULL</MAJOR>
+		<HOME>Havertown, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Jon</FNAME>
+		<LNAME>Zevin</LNAME>
+		<POS>Non-Event Fundraising Chair</POS>
+		<YEAR>2016</YEAR>
+		<MAJOR>Mechanical Engineering</MAJOR>
+		<HOME>Philadelphia, Pennsylvania</HOME>
+	</DSPB>  
+	                            
+	<DSPB>
+		<FNAME>Harry</FNAME>
+		<LNAME>Zhu</LNAME>
+		<POS>NULL</POS>
+		<YEAR>2017</YEAR>
+		<MAJOR>Marketing</MAJOR>
+		<HOME>Beijing, China</HOME>
+	</DSPB>  
+	                             
+	<DSPB>
+		<FNAME>Joel</FNAME>
+		<LNAME>Zimmermann</LNAME>
+		<POS>Alumni Relations</POS>
+		<YEAR>2015</YEAR>
+		<MAJOR>Marketing/Entrepreneurship</MAJOR>
+		<HOME>Phoenixville, Pennsylvania</HOME>
+	</DSPB>  
+                            
+</CATALOG>
