@@ -9,13 +9,15 @@
 
 /**GET*BROTHER*PICS******************************************************************************************************************************************************/
 
-function getBrotherPics()
+function getBrotherPics(passArray)
 {
-	var brotherArray =  JSON.parse($("#dataHolder_hack").text());
-	
+	var brotherArray =  JSON.parse(passArray);
+
 	
 	var fileExt = ".jpg"
 	var folderPath = "./images/brother_pictures/";
+
+
 	brotherArray.forEach(function(element, index, array)
 	{
 	var fileName = element["FNAME"] + "_" + element["LNAME"] + fileExt;
@@ -25,8 +27,8 @@ function getBrotherPics()
 	{
 		filePath = folderPath + "man_placeholder.gif";
 	}
-		
-    var result = '<div id="'+ element["LNAME"] + '_pic_cont" class="col-sm-6 col-md-2 isotope-item brotherPic '+ element["YEAR"]+'">';
+
+    var result = '<div id="'+ element["LNAME"] + '_pic_cont" class="col-sm-6 col-md-2 isotope-item brotherPic  '+ element["YEAR"]+ '">';
 	result +=				'<div class="image-box">';
 	result +=						'<div class="overlay-container">';
 	result +=							'<img src="' + filePath + '" alt="">';
@@ -80,14 +82,17 @@ function getBrotherPics()
 	result +=						'</div>';
 	result +=					'</div>';
 	result +=				'</div>';
-	
-	$("#brotherPicContainer").append(result);
-	
 
-});
+        $("#brotherPicContainer").append(result);
 
+
+    });
+    setTimeout(function(){$(".initialFilter").trigger('click');}, 500);
 	return true;
 }
+
+
+
 
 /********************************************************************************************************************************************************/
 /**LOAD*XML******************************************************************************************************************************************************/
@@ -185,15 +190,21 @@ xmlhttp.onreadystatechange=function()
       }
 
     }
-    $("#dataHolder_hack").html(JSON.stringify(resArray)).triggerHandler('dataHolderChanged');
+
+      getBrotherPics(JSON.stringify(resArray));
+
+   // $("#dataHolder_hack").html(JSON.stringify(resArray)).triggerHandler('dataHolderChanged');
   }
+
 xmlhttp.open("GET",url,true);
 xmlhttp.send();
+
+
 }
 
 /********************************************************************************************************************************************************/
 /**HAS*PIC*****************************************************************************************************************************************************/
-//Checks if pic path exists
+//Checks if picture path exists
 
 function hasPic(url)
 {

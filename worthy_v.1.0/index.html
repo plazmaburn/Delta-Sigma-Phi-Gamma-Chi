@@ -32,8 +32,10 @@
 		<link href="css/style.css" rel="stylesheet">
 		
 	
-		<!-- Custom css --> 
+		<!-- Custom css -->
+        <link href="css/custom.scss" rel="stylesheet">
 		<link href="css/custom.css" rel="stylesheet">
+
 		
 		
 		<!-- FancyBox Includes -->
@@ -54,6 +56,7 @@
 			
 			<link rel="stylesheet" href="./fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
 			<script type="text/javascript" src="./fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
 		<!-- End FancyBox Includes -->
 	</head>
 
@@ -389,24 +392,28 @@
 						<!-- isotope filters start -->
 						<div class="filters text-center">
 							<ul id="filterList" class="nav nav-pills">
-								<li class="active"><a href="#" data-filter=".2015">2015</a></li>
-								<li><a href="#" data-filter=".2016">2016</a></li>
+								<li class="active"><a href="#" class ="initialFilter" data-filter=".2015" >2015</a></li>
+								<li><a href="#" data-filter=".2016" >2016</a></li>
 								<li><a href="#" data-filter=".2017">2017</a></li>
-								<li><a href="#" data-filter=".2018">2018</a></li>
-								<li><a href="#" data-filter=".2019">2019</a></li>
-								<li><a href="#" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".2018" >2018</a></li>
+								<li><a href="#" data-filter=".2019" >2019</a></li>
 							</ul>
 						</div>
 						<!-- isotope filters end -->
 						<!-- portfolio items start -->
-						<div id="dataHolder_hack" style="display: none;"></div>
+						<!--dataHolder_hack div no longer needed as info is passed directly to function
+						<div id="dataHolder_hack" style="display: none;"></div> -->
 						<!--hereA-->
-						<div id="brotherPicPage">
-							<div id="brotherPicContainer" class="isotope-container row grid-space-20">
-							</div>
-						</div>
-							
-							<!-- filled by js function on doc load -->
+
+
+                        <!-- filled by js function on doc load -->
+                        <div id="brotherPicPage">
+                            <div id="brotherPicContainer" class="isotope-container row grid-space-20">
+                            </div>
+
+                        </div>
+
+
 
 						</div>
 						<!-- portfolio items end -->
@@ -600,7 +607,7 @@
 
 		<!-- Isotope javascript -->
 		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
-		
+
 		<!-- Backstretch javascript -->
 		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
 
@@ -610,21 +617,34 @@
 		<!-- Initialization of Plugins -->
 		<script type="text/javascript" src="js/template.js"></script>
 
+        <!-- Scripts for Brother Carousel Slider -->
+
+        <!-- use jssor.slider.mini.js (40KB) instead for release -->
+        <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js)
+        <script type="text/javascript" src="./js/jssor.js"></script>
+        <script type="text/javascript" src="./js/jssor.slider.js"></script> -->
+
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
+
 		
 		
 		<script>
-		// Loading and formating brother pics from xml...
-			var url = "../images/brother_pictures/brotherList.xml"
-			$(document).ready(loadXMLDoc(url));
-			
-			$('#dataHolder_hack').bind('dataHolderChanged', function(event, data) {
+
+            // Loading and formating brother pics from xml...
+            var url = "../images/brother_pictures/brotherList.xml"
+            $(document).ready(loadXMLDoc(url), function(res){
+                //console.log(res);
+            });
+
+
+		/*	OBS function now called upon end of loading the xml
+		$('#dataHolder_hack').bind('dataHolderChanged', function(event, data) {
 		    if ($('#dataHolder_hack').length > 0) {
 		        getBrotherPics();
 		    
 		    	}
-			});
+			});*/
 		//---------------
 		
 		// Init Fancybox...	
